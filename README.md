@@ -50,5 +50,19 @@ Pearson Correlation Coefficient also referred to Pearson's R or the bivariate co
 
 Venn Diagram
 
+Though the correlation between toxic and severe_toxic is just 0.31, but below Venn diagram shows that all severe_toxic are toxic comments. Indicating there is a non linear relationship between them that is not captured in the Pearson coefficient.
+
+![toxic-severe_toxic](https://user-images.githubusercontent.com/14051949/153311858-5ba4de4b-4580-4550-a4c4-53f1ffac0caf.png)
+
+
+Top 50 Words in Unprocessed Dataset
+![3 Top 50 words - unprocessed data](https://user-images.githubusercontent.com/14051949/153312349-c0fe10a4-713f-45e0-bc06-a4c8c9c677cd.png)
+
+The above barchart doesn't show any of the toxic words, and is basically filled with stop words.
+
+Another great way to visualize is via WordClouds
+
+Visualizing non toxic comments, for toxic comments word cloud refer to the ipynb in the repo.
+![clean](https://user-images.githubusercontent.com/14051949/153312554-095c7e1f-46ae-4b91-8ae9-ad42b1f09f56.png)
 
 
