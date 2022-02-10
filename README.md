@@ -24,6 +24,7 @@ different levels of toxicity like Threats, Obscenity, Insults & Identitiy Hates.
 Train Data - 159571 x 8
 Test Data - 153164 x 2
 
+```
 +----------------------+---------+
 |       Field 1        | Field 2 |
 +----------------------+---------+
@@ -31,15 +32,23 @@ Test Data - 153164 x 2
 | Total clean comments |  143346 |
 |     Total labels     |  35098  |
 +----------------------+---------+
+```
 
 Comments per Label
+```
 toxic            15294
 severe_toxic      1595
 obscene           8449
 threat             478
 insult            7877
 identity_hate     1405
+```
 
+Pearson Correlation Coefficient also referred to Pearson's R or the bivariate correlation is a statistic that measures the linear correlation between variables X and Y
+
+![Pearson Correlation Coefficient](https://user-images.githubusercontent.com/14051949/153311536-df688b6f-c009-4039-8f19-8b71e0d6fff8.png)
+
+Venn Diagram
 
 
 
